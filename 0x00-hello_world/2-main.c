@@ -1,15 +1,13 @@
 #include <stdio.h>
 
-
 /**
- *
- *  COMMENTSSS
- *
+ * this is a comment
+ *  comments
  *     */
 
 int main(void)
 {
-		printf("Thank you ALX <3");
+		printf("Holberton School");
 			return (0);
 
 }

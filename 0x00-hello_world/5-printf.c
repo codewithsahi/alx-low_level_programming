@@ -1,9 +1,8 @@
 #include <stdio.h>
 
-
 /**
- * COMMENTSS
- *COMMENTS
+ * main - Entry point
+ * return: always(0)
  */
 
 int main(void)
