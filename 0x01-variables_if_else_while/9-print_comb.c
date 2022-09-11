@@ -1,23 +1,24 @@
 #include <stdio.h>
 
 /**
- * main - Prints numbers between 0 to 9 with commas and spaces.
+ * main -prints all possible combinations of single-digit number
  *Return: always (0)
  */
-
 int main(void)
 {
-	int i;
+	int n = '0';
 
-	for (i = 48; i < 58; i++)
+	while (n <= '9')
 	{
-		putchar(i);
-		if (i != 57)
-		{
-			putchar(',');
-			putchar(' ');
-		}
+		putchar(n);
+		if (n != '9')
+	{
+		putchar(',');
+		putchar(' ');
+	}
+		n++;
 	}
 	putchar('\n');
+
 	return (0);
 }
